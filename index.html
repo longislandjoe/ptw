@@ -37,7 +37,7 @@
     background-image: url(images/assets/jumbotron-background.jpg);
     color: white;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 80px;
     background-size: cover;
     text-shadow: 5px 5px 10px #000000;
   }
@@ -48,8 +48,13 @@
     margin-bottom: 10px;
   }
 
+  .navbar {
+    padding: 0;
+    margin: 0;
+  }
+
   .navbar-brand {
-    max-height: 15vh;
+    max-height: 80px;
     vertical-align: bottom;
   }
 
@@ -80,11 +85,13 @@
   }
 
   #bio {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #AEBBB5;
     #    background-color: #869993;
     #    margin: 5px;
-    padding: 50px;
-    max-height: 100vh;
+    padding: 20px;
+  #  max-height: 100vh;
     margin-top: 50px;
   }
 
@@ -148,29 +155,38 @@
       background-color: #869993;
     }
 
+
     @media (max-width: 480px) {
       body { padding-top: 200px; }
     }
+
 
     </style>
 
   </head>
 
-
+  <!-- NAVBAR -->
   <body data-spy="scroll" data-target="#navbar" data-offset="150">
-    <div class="container">
-      <nav class="navbar fixed-top navbar-light" style="background-color: lightgray;" id="navbar">
-        <img class="navbar-brand" src="images/assets/PTW-logo.gif" alt="logo">
-        <a class="nav-item nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+  <!--  <div class="container"> -->
+<!--      <nav class="navbar fixed-top navbar-light" style="background-color: lightgray;" id="navbar"> -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand" src="images/assets/PTW-logo.gif" max-height="70px" alt="Precision Tile Worx LLC logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#whatwedo">What We Do</a>
         <a class="nav-item nav-link" href="#showcase">Showcase</a>
         <a class="nav-item nav-link" href="#bio">About Me</a>
         <a class="nav-item nav-link" href="#contactus">Contact Us</a>
         <a class="nav-item nav-link" href="#learnabouttile">Learn About Tile</a>
         <a class="nav-item nav-link" href="#areasserved">Areas Served</a>
-
-      </nav>
+      </div>
     </div>
+      </nav>
+<!--    </div>  -->
 
     <!-- JUMBOTRON  -->
     <div class="jumbotron" id="jumbotron">
@@ -181,7 +197,7 @@
     </div>
 
 
-    <!-- SUMMARY  -->
+    <!-- SUMMARY   -->
     <div class="container" style="background-color: #869993;">
       <div class="row" id="appSummary">
         <h2>Experience... Craftsmanship... Artistry... </h2>
@@ -373,16 +389,16 @@
     </div>
 
     <!-- BIO     -->
-    <div class="container" style="display: flex" id="bio">
-      <div class="col-sm-6 col-md-3">
+    <div id="bio">
+      <div class="col-sm-4 col-md-4">
         <div class="pull-right"><img src="images/assets/PTW-logo.gif" style="max-height: 100px; vertical-align: middle;"/>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-4 col-md-4">
         <div class="pull-center"><img src="images/assets/BioPhoto-small.gif" style="max-height:200px" />
         </div>
       </div>
-      <div class="col-sm-6 col-md-6">
+      <div class="col-sm-4 col-md-4">
         <div class="pull-left" style="justify-content">Hi, my name is Mark Fortunati, the owner of Precision Tile Worx <span class="subscript">LLC</span>.
           As a second-generation tile expert with over 3 decades of experience, tile is in my blood.  My experience includes all types of tile work from large corporate and institutional projects to small residential projects. No project is too big or small.  Let me help you get a fresh look for your home or business.
         </div>
