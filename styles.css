@@ -4,7 +4,11 @@
   color: white;
   text-align: center;
   margin-top: 80px;
+  margin-left:auto;
+  margin-right:auto;
   background-size: cover;
+
+
   text-shadow: 5px 5px 10px #000000;
 }
 
@@ -45,7 +49,8 @@
 }
 
 .carousel-inner img {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   max-height: 75vh;
 
 }
@@ -54,10 +59,7 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #AEBBB5;
-  #    background-color: #869993;
-  #    margin: 5px;
   padding: 20px;
-#  max-height: 100vh;
   margin-top: 50px;
 }
 
@@ -70,13 +72,13 @@
 #contactus {
   background-color: #869993;
   padding-top: 70px;
-  #  padding-bottom: 15px;
   margin-top: 5px;
   text-align: center;
 
 }
 
 #learnabouttile {
+
   background-color: #AEBBB5;
   padding-top: 20px;
   padding-left: 10px;
