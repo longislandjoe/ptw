@@ -3,19 +3,16 @@
   background-image: url(images/assets/jumbotron-background.jpg);
   color: white;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-left:auto;
   margin-right:auto;
   background-size: cover;
-
-
   text-shadow: 5px 5px 10px #000000;
 }
 
 #appSummary {
   text-align: left;
-  #    margin-top: 10px;
-  margin-bottom: 10px;
+  padding:10px;
 }
 
 .navbar {
@@ -71,14 +68,12 @@
 
 #contactus {
   background-color: #869993;
-  padding-top: 70px;
-  margin-top: 5px;
+  /*  margin-top: 5px; */
   text-align: center;
 
 }
 
 #learnabouttile {
-
   background-color: #AEBBB5;
   padding-top: 20px;
   padding-left: 10px;
@@ -93,12 +88,12 @@
 }
 
 .container {
-      display: flex;
-      flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   #    flex-direction: row;
 }
 
-  .fa {
+.fa {
   text-decoration: none;
   margin: 5px 2px;
 
