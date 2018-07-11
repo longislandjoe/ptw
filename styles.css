@@ -1,14 +1,17 @@
 
 .jumbotron {
   background-image: url(images/assets/jumbotron-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
   text-align: center;
+  text-shadow: 5px 5px 10px #000000;
   margin-top: 30px;
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 0;
-  background-size: cover;
-  text-shadow: 5px 5px 10px #000000;
+
+
 }
 
 #appSummary {
@@ -29,7 +32,7 @@
 
 .card-img-top {
   width: 100%;
-  min-width: 100%
+  min-width: 100%;
   height: auto;
   max-height: 200px;
 }
