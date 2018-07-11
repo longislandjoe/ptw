@@ -10,8 +10,6 @@
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 0;
-
-
 }
 
 #appSummary {
@@ -60,29 +58,20 @@
 
 }
 
-
-#showcase{
-  background-color: #CCCCCC;
-}
-
 #bio {
   display: flex;
   flex-wrap: wrap;
   background-color: #D2BB99;
-
   padding: 20px;
-  margin-top: 50px;
+  
 }
 
 .biophoto {
-  margin: auto;
-  align="left";
   max-height=80vh;
 }
 
 #contactus {
   background-color: #283152;
-  /*  margin-top: 5px; */
   text-align: center;
   color: white;
 
@@ -90,13 +79,14 @@
 
 #reviews {
   background-color: black;
-  padding: 5%;
+  padding-top: 25px;
+
 }
 
 #areasserved {
   background-color: #C7C6CC;
   color: black;
-  padding: 15px;
+  padding: 25px;
   text-align: left;
 
 }
